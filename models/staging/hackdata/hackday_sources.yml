@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: hackday
+    description: Sample hackday data
+    loader: trino
+    catalog: hive
+    schema: default
+    tables:
+      - name: chicago_taxi_trips_parquet
+        description: sample_taxi_data_parquet
+        
+          
